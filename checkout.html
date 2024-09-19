@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G e-commerce </title>
+    <link rel="icon" type="image/x-icon" href="./images/LMS-1.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/venobox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--- #Header Section Start --->
+    <header class="header">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="header-social-container">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <span> <ion-icon name="call"></ion-icon> Call : <a
+                                href="tel:01839237924">+8801972527563</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#" class="active">Home </a></li>
+                                <li><a href="#"> About </a></li>
+                                <li><a href="#"> Faq </a></li>
+                                <li><a href="#"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="index.html">
+                            <div class="logo">
+                                <img src="./images/logo.webp" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-action-icons">
+                            <a href="#">
+                                <ion-icon name="person" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="cart.html">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span>2</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-nav-wrapper">
+                            <ul class="nav_list">
+                                <li><a href="index.html"> Home </a></li>
+                                <li><a href="#"> Category <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden </a></li>
+                                <li><a href="#"> Electronics </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search" class="form-control">
+                            <i><ion-icon name="search"></ion-icon></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--- #Header Section End  --->
+    <main>
+
+        <!-------- CheckOut Section Start -------->
+        <section>
+            <div class="cart">
+                <div class="container">
+                    <div class="cart-map">
+                        <div class="map-content">
+                            <div class="map-icon">
+                                <i><ion-icon name="bag"></ion-icon></i>
+                            </div>
+                            <h6>Shopping Cart</h6>
+                        </div>
+                        <div class="map-content active-map ">
+                            <div class="map-icon">
+                                <i><ion-icon name="cart"></ion-icon></i>
+                            </div>
+                            <h6> Checkout Details</h6>
+                        </div>
+                        <div class="map-content">
+                            <div class="map-icon">
+                                <i><ion-icon name="checkmark"></ion-icon></i>
+                            </div>
+                            <h6>Order Complete</h6>
+                        </div>
+                    </div>
+                    <div class="cart-wrapper">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="checkout-wrapper">
+                                    <h4> BILLING DETAILS </h4>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-12 mt-2">
+                                                <label for="name" class="mb-2"> Your Name <span>*</span></label>
+                                                <input type="text" class="form-control" id="name" name=""
+                                                    placeholder="Your Name">
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="number" class="mb-2"> Mobile Number <span>*</span></label>
+                                                <input type="number" class="form-control" id="number" name=""
+                                                    placeholder="Number">
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="email" class="mb-2"> Your E-mail <span>*</span></label>
+                                                <input type="email" class="form-control" id="email" name=""
+                                                    placeholder="E-mail">
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="district" class="mb-2"> Select District
+                                                    <span>*</span></label>
+                                                <select class="form-select form-control"
+                                                    aria-label="Default select example">
+                                                    <option selected> Select </option>
+                                                    <option value="1"> One </option>
+                                                    <option value="2"> Two </option>
+                                                    <option value="3"> Three </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6 mt-3">
+                                                <label for="zipcode" class="mb-2"> Zip Code <span>*</span></label>
+                                                <input type="number" class="form-control" id="zipcode" name=""
+                                                    placeholder="Zip Code">
+                                            </div>
+                                            <div class="col-lg-12 mt-3">
+                                                <label for="address" class="form-label"> Full Address
+                                                    <span>*</span></label>
+                                                <textarea class="form-control" id="address" rows="3"
+                                                    placeholder="Address "></textarea>
+                                            </div>
+                                            <div class="col-lg-12 mt-3">
+                                                <label for="note" class="form-label"> Note * </label>
+                                                <textarea class="form-control" id="note" rows="3"
+                                                    placeholder="Note (Optional) "></textarea>
+                                            </div>
+                                        </div>
+                                </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="cart-amount border-amont">
+                                    <h4>Your Order</h4>
+                                    <div class="cart-product">
+                                        <div class="cart-product-heading">
+                                            <span>Product</span>
+                                            <span>Subtotal</span>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-lg-9 col-8">
+                                                <div class="cart-product-name">
+                                                    Running Sneaker Shoes <span> (x2)</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-4 text-end">
+                                                <div class="cart-product-amount">
+                                                    400 Tk.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-9 col-8">
+                                                <div class="cart-product-name">
+                                                    Nike Running Sneaker Shoes <span> (x2) </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-4 text-end">
+                                                <div class="cart-product-amount">
+                                                    250 Tk.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-amount-chart">
+                                        <div class="cart-amount-list">
+                                            <span> Subtotal </span>
+                                            <span class="amount-price"> 250 Tk. </span>
+                                        </div>
+                                        <div class="cart-amount-list">
+                                            <span> Discount </span>
+                                            <span class="amount-price"> 20 Tk. </span>
+                                        </div>
+                                        <div class="cart-amount-list">
+                                            <span> Delivery Charge </span>
+                                            <span class="amount-price"> 30 Tk. </span>
+                                        </div>
+
+                                        <div class="cart-amount-list total-amount">
+                                            <span class="amount-price-name"> Total Amount </span>
+                                            <span class="total-amount-price"> 550 Tk. </span>
+                                        </div>
+                                        <h6>Cash On Delivery <span>(Pay with cash upon delivery.)</span> </h6>
+                                        <a href="orderConfirmed.html">
+                                            <button class="check-out-btn">
+                                                Place Order
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------- CheckOut Section  End -------->
+
+
+        <!-----------#Footer Section Start  ------------->
+        <footer class="footer" style="background-image: url(./images/Footer-bg.webp);">
+            <div class="footer-main">
+                <div class="container">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="./images/logo.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="footer-wrapper">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h4> FOLLOW US </h4>
+                                <ul class="header-social-container">
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-linkedin"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>The Sole purpose of Sole Harvest is to reach clients to promote fitness and lifestyle
+                                    toward a healthy living by providing the most comfortable and finest quality shoes.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>HELP AND INFORMATION </h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#"> Shopping </a></li>
+                                        <li><a href="#"> Size guides </a></li>
+                                        <li><a href="#"> Privacy Policy </a></li>
+                                        <li><a href="#"> Terms & Conditions </a></li>
+                                        <li><a href="#"> Notice to the buyer </a></li>
+                                        <li><a href="#"> Returns </a></li>
+                                        <li><a href="#"> FAQ </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>About Us</h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#">About Sole Hervest</a></li>
+                                        <li><a href="#">Mobile App</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container text-center">
+                    <span>© Copyright 2024 – Developed by iCircles</span>
+                </div>
+            </div>
+        </footer>
+        <!-----------  Footer Section End  ------------->
+    </main>
+
+    <!--
+         Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/venobox.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/custom.js"></script>
+</body>

@@ -1,0 +1,74 @@
+.product-filter-side {
+  .accordion {
+    .accordion-button:not(.collapsed) {
+      box-shadow: none;
+    }
+    .accordion-button:focus {
+      box-shadow: none;
+      border: none;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: $whiteColor;
+    }
+    .accordion-item {
+      .accordion-header {
+        .accordion-button {
+          color: $blackColor;
+          font-weight: 500;
+          padding: 8px 15px;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+      }
+
+      .accordion-body {
+        padding: 10px 15px;
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}
+
+.chart-item {
+  h5 {
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  em {
+    font-size: 13px;
+    color: #767474;
+    margin-left: 5px;
+  }
+  .color-tap{
+      height: 15px;
+      width: 15px; 
+      border-radius: 50%;
+      position: absolute;
+      right: -30px;
+      top: 50%;
+      transform: translateY(-50%);
+}
+.black{
+      background-color: #000;
+}
+.green{
+      background-color: green;
+}
+.yellow{
+      background-color: rgb(243, 201, 16);
+}
+.blue{
+      background-color: blue;
+}
+.gray{
+      background-color: gray;
+}
+  label{
+      font-size: 14px;
+      position: relative;
+  }
+
+  .form-check{
+      margin-bottom: 10px;
+  }
+}

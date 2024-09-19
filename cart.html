@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Theme </title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--- #Header Section Start --->
+    <header class="header">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="header-social-container">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <span> <ion-icon name="call"></ion-icon> Call : <a
+                                href="tel:01839237924">+8801972527563</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#" class="active">Home </a></li>
+                                <li><a href="#"> About </a></li>
+                                <li><a href="#"> Faq </a></li>
+                                <li><a href="#"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="index.html">
+                            <div class="logo">
+                                <img src="./images/logo.webp" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-action-icons">
+                            <a href="#">
+                                <ion-icon name="person" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="">
+                                <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="cart.html">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span>2</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-nav-wrapper">
+                            <ul class="nav_list">
+                                <li><a href="index.html"> Home </a></li>
+                                <li><a href="#"> Category <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden </a></li>
+                                <li><a href="#"> Electronics </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search" class="form-control">
+                            <i><ion-icon name="search"></ion-icon></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--- #Header Section End  --->
+    <main>
+
+        <!-- #Cart Section Start -->
+        <section>
+            <div class="cart">
+                <div class="container">
+                    <div class="cart-map">
+                        <div class="map-content active-map">
+                            <div class="map-icon">
+                                <i><ion-icon name="bag"></ion-icon></i>
+                            </div>
+                            <h6>Shopping Cart</h6>
+                        </div>
+                        <div class="map-content">
+                            <div class="map-icon">
+                                <i><ion-icon name="cart"></ion-icon></i>
+                            </div>
+                            <h6> Checkout Details</h6>
+                        </div>
+                        <div class="map-content">
+                            <div class="map-icon">
+                                <i><ion-icon name="checkmark"></ion-icon></i>
+                            </div>
+                            <h6>Order Complete</h6>
+                        </div>
+                    </div>
+                    <div class="cart-wrapper">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="cart-wrap-list">
+                                    <div class="cart-heading">
+                                        <h4> Cart <span>( 2 )</span> </h4>
+                                        <h5> <i class="fa-solid fa-xmark"></i> Clear Cart </h5>
+                                    </div>
+                                    <div class="cart-list-wrapper">
+                                        <div class="cart-list-heading">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-3">
+                                                    <span>Product</span>
+                                                </div>
+                                                <div class="col-lg-3 col-5 text-center">
+                                                    <span>Quantity</span>
+                                                </div>
+                                                <div class="col-lg-2 d-lg-block d-none text-center">
+                                                    <span> Price </span>
+                                                </div>
+                                                <div class="col-lg-2 col-4 text-center">
+                                                    <span> Subtotal </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-list">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-2 col-3">
+                                                    <div class="cart-item-img">
+                                                        <img src="./images/product-1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 d-lg-block d-none">
+                                                    <div class="cart-content">
+                                                        <h5> Running Shoes </h5>
+                                                        <h6> Men / Women </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-5">
+                                                    <div class="buy_counter">
+                                                        <span class="minus">-</span>
+                                                        <input type="text" value="1" class="counter_controller" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2 d-lg-block d-none text-center">
+                                                    <span class="price"> 250 Tk. </span>
+                                                </div>
+                                                <div class="col-lg-2 col-4 text-center">
+                                                    <span class="subTotal"> 500 Tk. </span>
+                                                </div>
+                                            </div>
+                                            <div class="list-delet-icon">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="cart-list">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-2 col-3">
+                                                    <div class="cart-item-img">
+                                                        <img src="./images/product-2.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 d-lg-block d-none">
+                                                    <div class="cart-content">
+                                                        <h5> Sneaker Shoes </h5>
+                                                        <h6> Men / Women </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-5">
+                                                    <div class="buy_counter">
+                                                        <span class="minus">-</span>
+                                                        <input type="text" value="1" class="counter_controller" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2 text-center d-lg-block d-none">
+                                                    <span class="price"> 250 Tk. </span>
+                                                </div>
+                                                <div class="col-lg-2 text-center col-4">
+                                                    <span class="subTotal"> 500 Tk. </span>
+                                                </div>
+                                            </div>
+                                            <div class="list-delet-icon">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="cart-list">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-2 col-3">
+                                                    <div class="cart-item-img">
+                                                        <img src="./images/product-3.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 d-lg-block d-none">
+                                                    <div class="cart-content">
+                                                        <h5> Running Sneaker Shoes </h5>
+                                                        <h6> Men / Women </h6>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-5">
+                                                    <div class="buy_counter">
+                                                        <span class="minus">-</span>
+                                                        <input type="text" value="1" class="counter_controller" />
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-2 text-center d-lg-block d-none">
+                                                    <span class="price"> 250 Tk. </span>
+                                                </div>
+                                                <div class="col-lg-2 text-center col-4">
+                                                    <span class="subTotal"> 500 Tk. </span>
+                                                </div>
+                                            </div>
+                                            <div class="list-delet-icon">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="cart-amount">
+                                    <h4>Cart Details</h4>
+                                    <div class="cart-amount-chart">
+                                        <div class="cart-amount-list">
+                                            <span> Subtotal </span>
+                                            <span class="amount-price"> 250 Tk. </span>
+                                        </div>
+                                        <div class="cart-amount-list">
+                                            <span> Discount </span>
+                                            <span class="amount-price"> 20 Tk. </span>
+                                        </div>
+                                        <div class="cart-amount-list">
+                                            <span> Delivery Charge </span>
+                                            <span class="amount-price"> 30 Tk. </span>
+                                        </div>
+
+                                        <div class="cart-amount-list total-amount">
+                                            <span class="amount-price-name"> Total Amount </span>
+                                            <span class="total-amount-price"> 550 Tk. </span>
+                                        </div>
+                                        <a href="checkout.html">
+                                            <button class="check-out-btn">
+                                                Continue to checkout
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------#Footer Section Start  ------------->
+        <footer class="footer" style="background-image: url(./images/Footer-bg.webp);">
+            <div class="footer-main">
+                <div class="container">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="./images/logo.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="footer-wrapper">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h4> FOLLOW US </h4>
+                                <ul class="header-social-container">
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-linkedin"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>The Sole purpose of Sole Harvest is to reach clients to promote fitness and lifestyle
+                                    toward a healthy living by providing the most comfortable and finest quality shoes.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>HELP AND INFORMATION </h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#"> Shopping </a></li>
+                                        <li><a href="#"> Size guides </a></li>
+                                        <li><a href="#"> Privacy Policy </a></li>
+                                        <li><a href="#"> Terms & Conditions </a></li>
+                                        <li><a href="#"> Notice to the buyer </a></li>
+                                        <li><a href="#"> Returns </a></li>
+                                        <li><a href="#"> FAQ </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>About Us</h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#">About Sole Hervest</a></li>
+                                        <li><a href="#">Mobile App</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container text-center">
+                    <span>© Copyright 2024 – Developed by iCircles</span>
+                </div>
+            </div>
+        </footer>
+        <!-----------  Footer Section End  ------------->
+    </main>
+
+    <!--   
+         Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/custom.js"></script>
+</body>

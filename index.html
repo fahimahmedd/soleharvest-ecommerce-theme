@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Theme </title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--- #Header Section Start --->
+    <header class="header">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="header-social-container">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <span> <ion-icon name="call-outline"></ion-icon> Call : <a
+                                href="tel:01839237924">+8801972527563</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#" class="active">Home </a></li>
+                                <li><a href="#"> About </a></li>
+                                <li><a href="#"> Faq </a></li>
+                                <li><a href="#"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="index.html">
+                            <div class="logo">
+                                <img src="./images/logo.webp" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-action-icons">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="cart.html">
+                                <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+                                <span>2</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-nav-wrapper">
+                            <ul class="nav_list">
+                                <li><a href="index.html"> Home </a></li>
+                                <li><a href="#"> Category <ion-icon name="caret-down-outline"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden <ion-icon name="caret-down-outline"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden </a></li>
+                                <li><a href="#"> Electronics </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search" class="form-control">
+                            <i><ion-icon name="search-outline"></ion-icon></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--- #Header Section End  --->
+    <main>
+        <!--- #Hero Section Start --->
+        <section class="hero" id="hero">
+            <div class="hero-slider">
+                <div class="swiper heroSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hero-warpper" style="background-image: url('./images/hero-banner-1.jpg')">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="hero-content">
+                                                <h2 class="hero-title">
+                                                    New Summer
+                                                </h2>
+                                                <h1>Shoes Collection</h1>
+                                                <p class="hero-text">
+                                                    Competently expedite alternative benefits whereas leading-edge
+                                                    catalysts for
+                                                    change.
+                                                    Globally leverage existing an expanded array of leadership.
+                                                </p>
+                                                <button class="btn">
+                                                    <span> Shop Now </span>
+                                                    <ion-icon name="arrow-forward-outline"
+                                                        aria-hidden="true"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero-warpper" style="background-image: url('./images/hero-banner-2.jpg')">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="hero-content">
+                                                <h2 class="hero-title">
+                                                    Beauty
+                                                </h2>
+                                                <h1>Reveal Your Beauty Skin</h1>
+                                                <p class="hero-text">
+                                                    Competently expedite alternative benefits whereas leading-edge
+                                                    catalysts for
+                                                    change.
+                                                    Globally leverage existing an expanded array of leadership.
+                                                </p>
+                                                <button class="btn">
+                                                    <span> Shop Now </span>
+                                                    <ion-icon name="arrow-forward-outline"
+                                                        aria-hidden="true"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero-warpper" style="background-image: url('./images/hero-banner-3.jpg')">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="hero-content">
+                                                <h2 class="hero-title">
+                                                    Face Treatment
+                                                </h2>
+                                                <h1>Reveal Your Beauty Skin</h1>
+                                                <p class="hero-text">
+                                                    Competently expedite alternative benefits whereas leading-edge
+                                                    catalysts for
+                                                    change.
+                                                    Globally leverage existing an expanded array of leadership.
+                                                </p>
+                                                <button class="btn">
+                                                    <span> Shop Now </span>
+                                                    <ion-icon name="arrow-forward-outline"
+                                                        aria-hidden="true"></ion-icon>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--- #Hero Section  End  --->
+
+
+        <!-- #Front Category Section Start -->
+        <section>
+            <div class="front-category">
+                <div class="container-fluid">
+                    <h3>MEN'S STREETWEAR FASHION</h3>
+                    <div class="front-category-wrapper mt-4">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-1.jpg" alt="">
+                                        </div>
+                                        <span>Shoes</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-2.jpg" alt="">
+                                        </div>
+                                        <span>Clothing</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-3.jpg" alt="">
+                                        </div>
+                                        <span>Sunglasses</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-4.jpg" alt="">
+                                        </div>
+                                        <span>Jackets</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-5.jpg" alt="">
+                                        </div>
+                                        <span>Caps and Hats</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-4">
+                                <a href="productList.html">
+                                    <div class="front-category-item">
+                                        <div class="cat-img">
+                                            <img src="./images/product-6.jpg" alt="">
+                                        </div>
+                                        <span>Sales</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- #Product List Section Start -->
+        <section class="section-padding-bottom">
+            <div class="container-fluid">
+                <h3 class="mb-4">POPULAR PRODUCT ITEM </h3>
+                <div class="product-swipper">
+                    <div class="swiper productSwipper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-1.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-2.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-1.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-3.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-4.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-3.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-5.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-4.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/product-6.jpg" alt="" class="product-img default">
+                                            <img src="./images/product-5.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Product List -->
+        <section>
+            <div class="special section-padding-bottom">
+                <div class="container-fluid">
+                    <div class="special-wrapper">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="sub-banner" style="background-image: url('./images/brand-2.jpg')">
+                                    <h5>New Trend Edition</h5>
+                                    <button> Explore All</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h2 class="h2 section-title">
+                                    <span class="text">Brand Special Item</span>
+                                    <span class="line"></span>
+                                </h2>
+
+                                <div class="product-slider">
+                                    <div class="swiper brandSwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <a href="productDetail.html">
+                                                    <div class="showcase-item">
+                                                        <div class="showcase-banner">
+                                                            <img src="./images/product-1.jpg" alt=""
+                                                                class="product-img default">
+                                                            <img src="./images/product-2.jpg" alt=""
+                                                                class="product-img hover">
+                                                            <div class="showcase-favorite"><ion-icon
+                                                                    name="heart-outline"></ion-icon></div>
+                                                        </div>
+                                                        <div class="showcase-content">
+                                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                                            <div class="price-box">
+                                                                <span class="price">$99.00</span>
+                                                                <del>$105.00</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="productDetail.html">
+                                                    <div class="showcase-item">
+                                                        <div class="showcase-banner">
+                                                            <img src="./images/brand-2.jpg" alt=""
+                                                                class="product-img default">
+                                                            <img src="./images/brand-3.jpg" alt=""
+                                                                class="product-img hover">
+                                                            <div class="showcase-favorite"><ion-icon
+                                                                    name="heart-outline"></ion-icon></div>
+                                                        </div>
+                                                        <div class="showcase-content">
+                                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                                            <div class="price-box">
+                                                                <span class="price">$99.00</span>
+                                                                <del>$105.00</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="productDetail.html">
+                                                    <div class="showcase-item">
+                                                        <div class="showcase-banner">
+                                                            <img src="./images/product-2.jpg" alt=""
+                                                                class="product-img default">
+                                                            <img src="./images/product-3.jpg" alt=""
+                                                                class="product-img hover">
+                                                            <div class="showcase-favorite"><ion-icon
+                                                                    name="heart-outline"></ion-icon></div>
+                                                        </div>
+                                                        <div class="showcase-content">
+                                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                                            <div class="price-box">
+                                                                <span class="price">$99.00</span>
+                                                                <del>$105.00</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="productDetail.html">
+                                                    <div class="showcase-item">
+                                                        <div class="showcase-banner">
+                                                            <img src="./images/brand-3.jpg" alt=""
+                                                                class="product-img default">
+                                                            <img src="./images/brand-4.jpg" alt=""
+                                                                class="product-img hover">
+                                                            <div class="showcase-favorite"><ion-icon
+                                                                    name="heart-outline"></ion-icon></div>
+                                                        </div>
+                                                        <div class="showcase-content">
+                                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                                            <div class="price-box">
+                                                                <span class="price">$99.00</span>
+                                                                <del>$105.00</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="productDetail.html">
+                                                    <div class="showcase-item">
+                                                        <div class="showcase-banner">
+                                                            <img src="./images/product-5.jpg" alt=""
+                                                                class="product-img default">
+                                                            <img src="./images/product-6.jpg" alt=""
+                                                                class="product-img hover">
+                                                            <div class="showcase-favorite"><ion-icon
+                                                                    name="heart-outline"></ion-icon></div>
+                                                        </div>
+                                                        <div class="showcase-content">
+                                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                                            <div class="price-box">
+                                                                <span class="price">$99.00</span>
+                                                                <del>$105.00</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!-- #Benifits Section Start -->
+        <section class="benifits" style="background-image: url(./images/benifit-bg.webp);">
+            <div class="container">
+                <div class="benifits-wrapper mt-4">
+                    <h2>YOU'RE PAYING TOO MUCH</h2>
+                    <p>Simply become a member of the Club and start enjoying the benefits of shopping</p>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="benifit-item">
+                                <div class="item-icon">
+                                    <img src="./images/b-1.png" alt="">
+                                </div>
+                                <h5>Free Shipping</h5>
+                                <p>Free shipping on all orders over BDT 4000</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="benifit-item">
+                                <div class="item-icon">
+                                    <img src="./images/b-2.png" alt="">
+                                </div>
+                                <h5>100% Secure Payment</h5>
+                                <p>Pay with confidence on our site</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="benifit-item">
+                                <div class="item-icon">
+                                    <img src="./images/b-3.png" alt="">
+                                </div>
+                                <h5>Daily Offers</h5>
+                                <p>Exciting discounts, promotions and offers </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="benifit-item">
+                                <div class="item-icon">
+                                    <img src="./images/b-4.png" alt="">
+                                </div>
+                                <h5>24/7 Dedicated Support</h5>
+                                <p>Get in touch with any query you have</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #Product List Section Start -->
+        <section class="section-padding">
+            <div class="container-fluid">
+                <h3 class="mb-4"> RECENTLY VIEWD PRODUCT </h3>
+
+                <div class="product-swipper">
+                    <div class="swiper productSwipper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-3.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-4.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-5.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productDetail.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-3.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-5.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------#Footer Section Start  ------------->
+        <footer class="footer" style="background-image: url(./images/Footer-bg.webp);">
+            <div class="footer-main">
+                <div class="container">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="./images/logo.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="footer-wrapper">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h4> FOLLOW US </h4>
+                                <ul class="header-social-container">
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-linkedin"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>The Sole purpose of Sole Harvest is to reach clients to promote fitness and lifestyle
+                                    toward a healthy living by providing the most comfortable and finest quality shoes.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>HELP AND INFORMATION </h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#"> Shopping </a></li>
+                                        <li><a href="#"> Size guides </a></li>
+                                        <li><a href="#"> Privacy Policy </a></li>
+                                        <li><a href="#"> Terms & Conditions </a></li>
+                                        <li><a href="#"> Notice to the buyer </a></li>
+                                        <li><a href="#"> Returns </a></li>
+                                        <li><a href="#"> FAQ </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>About Us</h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#">About Sole Hervest</a></li>
+                                        <li><a href="#">Mobile App</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container text-center">
+                    <span>© Copyright 2024 – Developed by iCircles</span>
+                </div>
+            </div>
+        </footer>
+        <!-----------  Footer Section End  ------------->
+    </main>
+
+
+    <!--------------- #Login Modal Form  ------------>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content login-modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="login-form">
+                        <h4>Welcome!</h4>
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-managment text-end mt-2">
+                                <span> Forgot Password? </span>
+                            </div>
+                            <div class="d-grid  col-12 mx-auto mt-3">
+                                <button class="btn loginBtn" type="button">Log In</button>
+                            </div>
+                            <div class="sign-up-btn">
+                                Don't have an account? <span>Sign up</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   
+         Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/custom.js"></script>
+</body>

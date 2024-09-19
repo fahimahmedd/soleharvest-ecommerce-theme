@@ -1,0 +1,76 @@
+/*<><><><><><><<><><><><><<><><><><>
+Template Name: 
+Template URL : 
+Description  :
+Author       : 
+Author URL   :
+Version      : 1.1.1
+<><><><><><><<><><><><><<><><><><>*/
+
+/*----------------------------------
+       HTML  INDEX LIST
+01. 
+02. 
+03. 
+-------------------------------------*/
+
+
+
+/*     Google Font Connections 
+-------------------------------------*/
+
+
+
+/*      SCSS Pages Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/common_scss/common"; 
+@import "../scss/mixin_scss/mixin";
+@import "../scss/variable_scss/variable"; 
+
+
+/*     SCSS Sections Connections  
+------------------------------------*/
+
+// Common Section
+@import "../scss/header"; 
+@import "../scss/product"; 
+@import "../scss/footer";  
+@import "../scss/productFilterSidebar"; 
+@import "../scss/productDetail"; 
+@import "../scss/cart"; 
+@import "../scss/loginSignup"; 
+
+
+// Index Page 
+@import "../scss/indexPage/hero"; 
+@import "../scss/indexPage/frontCategory"; 
+@import "../scss/indexPage/benifits"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

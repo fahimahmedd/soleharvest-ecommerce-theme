@@ -1,0 +1,98 @@
+.front-category{
+    padding: 60px 0;
+    .front-category-wrapper{
+        .front-category-item{
+            height: 80px;
+            width: 100%;
+            background-color: #f3f3f3;
+            // background-color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 12px 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            &:hover{
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            }
+            .cat-img{
+                img{
+                    max-height: 60px;
+                    
+                }
+            }
+            span{
+                font-weight: 500;
+                text-transform: uppercase;
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+
+.category-slider{
+    position: relative;
+    .front-category-item{
+        height: 50px;
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid #c3c3c39a;
+        &:hover{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .cat-img{
+            img{
+                max-height: 40px;
+                max-width: 40px; 
+            }
+        }
+        span{
+            font-weight: 500;
+            text-transform: uppercase;
+            padding-left: 10px;
+            font-size: 12px;
+            line-height: 18px;
+            @include text-ellips;
+        }
+    }
+
+    .swiper-button-next::after{
+        height: 30px;
+        width: 30px; 
+        border-radius: 50%;
+        background-color: $whiteColor;
+        @include d-center; 
+        color: $textColor;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-size: 12px;
+    }
+    .swiper-button-next:hover::after{
+        background-color: $primaryColor;
+        color: $whiteColor;
+    }
+    .swiper-button-next{
+        transform: translateY(-50%);
+    }
+    .swiper-button-prev{
+        transform: translateY(-50%);
+    }
+    .swiper-button-prev:hover::after{
+        background-color: $primaryColor;
+        color: $whiteColor;
+    }
+    .swiper-button-prev::after{ 
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: $whiteColor;
+        @include d-center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        color: $textColor;
+        font-size: 12px;
+    }
+}

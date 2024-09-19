@@ -1,0 +1,60 @@
+.login-form {
+  h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: $blackColor;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .form-floating {
+    input {
+      background-color: #f3f3f3;
+      padding-bottom: 2px !important;
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+  }
+  .loginBtn {
+    background-color: #000;
+    color: $whiteColor;
+    &:hover {
+      background-color: #333;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .form-managment {
+    span {
+      cursor: pointer;
+      font-size: 15px;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  .sign-up-btn {
+    text-align: center;
+    margin-top: 15px;
+    span {
+      font-size: 16px;
+      font-weight: 500;
+      color: $primaryColor;
+      cursor: pointer;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+}
+.login-modal-content {
+  padding: 25px;
+  .modal-header {
+    border-bottom: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

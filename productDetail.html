@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Theme </title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--- #Header Section Start --->
+    <header class="header">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="header-social-container">
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <span> <ion-icon name="call"></ion-icon> Call : <a
+                                href="tel:01839237924">+8801972527563</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#" class="active">Home </a></li>
+                                <li><a href="#"> About </a></li>
+                                <li><a href="#"> Faq </a></li>
+                                <li><a href="#"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="index.html">
+                            <div class="logo">
+                                <img src="./images/logo.webp" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="nav-action-icons">
+                            <a href="#">
+                                <ion-icon name="person" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                            </a>
+                            <a href="cart.html">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span>2</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="header-nav-wrapper">
+                            <ul class="nav_list">
+                                <li><a href="index.html"> Home </a></li>
+                                <li><a href="#"> Category <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden <ion-icon name="caret-down"></ion-icon> </a>
+                                    <ul class="sub_down">
+                                        <li><a href="#">Home & Garden</a></li>
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Fashion</a></li>
+                                        <li><a href="#"> Toys & Games </a></li>
+                                        <li><a href="#">Collectibles & Art</a></li>
+                                        <li><a href="#">Jewelry & Accessories</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"> Home & Garden </a></li>
+                                <li><a href="#"> Electronics </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Search" class="form-control">
+                            <i><ion-icon name="search"></ion-icon></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--- #Header Section End  --->
+    <main>
+
+        <!-- #Product Detail Section Start -->
+        <section class="product-detail padding-30">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="product-gallery">
+                            <div class="row">
+                                <div class="col-lg-6 p-1">
+                                    <div class="product-gallery-img front-img">
+                                        <img src="./images/d-1.jpg" alt="">
+                                        <a href="./images/d-1.jpg" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-1">
+                                    <div class="product-gallery-img front-img">
+                                        <img src="./images/d-2.webp" alt="">
+                                        <a href="./images/d-2.webp" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 p-1">
+                                    <div class="product-gallery-img sub-img">
+                                        <img src="./images/d-3.jpg" alt="">
+                                        <a href="./images/d-3.jpg" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1">
+                                    <div class="product-gallery-img sub-img">
+                                        <img src="./images/d-4.jpg" alt="">
+                                        <a href="./images/d-4.jpg" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1">
+                                    <div class="product-gallery-img sub-img">
+                                        <img src="./images/d-5.webp" alt="">
+                                        <a href="./images/d-5.webp" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 p-1">
+                                    <div class="product-gallery-img sub-img">
+                                        <img src="./images/d-6.jpg" alt="">
+                                        <a href="./images/d-6.jpg" data-lightbox="image" data-title="Caption">
+                                            <div class="gallery-overly">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="detail-content">
+                            <div class="new-batch"> New </div>
+                            <h4>NIKE DUNK LOW RETRO <br> PREMIUM</h4>
+                            <h6>Sail/ Fossil-Medium Curry</h6>
+                            <div class="review-star">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <a href="#">3 Reviews</a>
+                            </div>
+                            <div class="price-box">
+                                <span class="price">$99.00</span>
+                                <del>$105.00</del>
+                            </div>
+
+                            <div class="option-header">
+                                Color Option
+                            </div>
+                            <div class="color-option">
+                                <div class="option-img active">
+                                    <img src="./images/d-1.jpg" alt="">
+                                </div>
+                                <div class="option-img">
+                                    <img src="./images/c-1.webp" alt="">
+                                </div>
+                                <div class="option-img">
+                                    <img src="./images/c-2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="option-header">
+                                Choose Size
+                            </div>
+                            <div class="size-chart ">
+                                <form action="#">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="s"
+                                            value="option1">
+                                        <label class="form-check-label" for="s">S</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="m"
+                                            value="option2">
+                                        <label class="form-check-label" for="m">M</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="l"
+                                            value="option3">
+                                        <label class="form-check-label" for="l">L</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="xl"
+                                            value="option4">
+                                        <label class="form-check-label" for="xl">XL</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="xxl"
+                                            value="option5">
+                                        <label class="form-check-label" for="xxl">XXL</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="buy_content">
+                                <div class="buy_content_wrapper">
+                                    <div class="buy_counter_wrapper">
+                                        <div class="buy_counter">
+                                            <span class="minus">-</span>
+                                            <input type="text" value="1" class="counter_controller" />
+                                            <span class="plus">+</span>
+                                        </div>  
+                                        <a href="cart.html">
+                                            <div class="buy_btn">
+                                                Add To Cart
+                                            </div> 
+                                        </a>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-detail-content">
+                    <div class="detail-content-head">
+                        <span>Details</span>
+                    </div>
+                    
+                    <h5> NIKE DUNK LOW </h5>
+                    <p>The Nike Dunk is undoubtedly one of the top 5 silhouettes we've ever seen from Nike. They first came out back in 1985, as the name suggests, as a basketball shoe in a high-top design. The Dunks are associated with the golden era of basketball as much as they are with the golden era of sneakers - in nearly 40 years on the market, they have had hundreds of collaborations, of which we must mention releases from the likes of Pigeon, Tiffany, FLOM and Heineken.</p>
+                    <p>Explore the Nike Dunk Low on Footshop and discover the sneaker that has been shaping the perception of what it means to be cool for the last few decades.</p>
+                    
+                    <h4>MATERIALS</h4>
+                    <h5>Upper</h5>
+                    <p>Suede: leather cut from the back, while the fibers remain on the surface, suede is less prone to damage than nubuck. </p>
+                    <p>Leather: is perhaps the best material for the production of footwear - maintains its shape, it is breathable and the list of its positive properties is far from ending.</p>
+                    <h5>Sole</h5>
+                    <p>Rubber: a material that is very easy to maintain and you will appreciate it especially in rainy weather. </p>
+
+                </div>
+            </div>
+        </section>
+
+         <!-- #Product List Section Start -->
+         <section class="section-padding">
+            <div class="container-fluid">
+                <h3 class="mb-4"> RECENTLY VIEWD PRODUCT </h3>
+
+                <div class="product-swipper">
+                    <div class="swiper productSwipper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-3.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-1.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-4.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                            <div class="showcase-discount"> -50% </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-5.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-2.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="productList.html">
+                                    <div class="showcase-item">
+                                        <div class="showcase-banner">
+                                            <img src="./images/brand-3.jpg" alt="" class="product-img default">
+                                            <img src="./images/brand-5.jpg" alt="" class="product-img hover">
+                                            <div class="showcase-badge-angle">new</div>
+                                            <div class="showcase-favorite"><ion-icon name="heart-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        <div class="showcase-content">
+                                            <h5>Jordan 23 Engineered Woven Pant</h5>
+                                            <div class="price-box">
+                                                <span class="price">$99.00</span>
+                                                <del>$105.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------#Footer Section Start  ------------->
+        <footer class="footer" style="background-image: url(./images/Footer-bg.webp);">
+            <div class="footer-main">
+                <div class="container">
+                    <a href="index.html">
+                        <div class="logo">
+                            <img src="./images/logo.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="footer-wrapper">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <h4> FOLLOW US </h4>
+                                <ul class="header-social-container">
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="social-link">
+                                            <ion-icon name="logo-linkedin"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>The Sole purpose of Sole Harvest is to reach clients to promote fitness and lifestyle
+                                    toward a healthy living by providing the most comfortable and finest quality shoes.
+                                </p>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <h4>HELP AND INFORMATION </h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#"> Shopping </a></li>
+                                        <li><a href="#"> Size guides </a></li>
+                                        <li><a href="#"> Privacy Policy </a></li>
+                                        <li><a href="#"> Terms & Conditions </a></li>
+                                        <li><a href="#"> Notice to the buyer </a></li>
+                                        <li><a href="#"> Returns </a></li>
+                                        <li><a href="#"> FAQ </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h4>About Us</h4>
+                                <div class="footer-nav">
+                                    <ul>
+                                        <li><a href="#">About Sole Hervest</a></li>
+                                        <li><a href="#">Mobile App</a></li>
+                                        <li><a href="#">Career</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container text-center">
+                    <span>© Copyright 2024 – Developed by iCircles</span>
+                </div>
+            </div>
+        </footer>
+        <!-----------  Footer Section End  ------------->
+    </main>
+
+    <!--   
+         Javascript Script Linker Part
+    --------------------------------------------------->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/lightbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
